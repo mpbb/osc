@@ -1,8 +1,7 @@
-import type { ApiDate } from "./ApiDate";
 import type { OptionContract } from "./OptionContract";
 
 export type OptionChain = {
-    expirationDate: ApiDate,
+    expirationDate: number,
     hasMiniOptions?: boolean,
     calls: [OptionContract],
     puts: [OptionContract]

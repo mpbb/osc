@@ -1,4 +1,4 @@
-import { OptionChain } from "./OptionChain"
+import type { OptionChain } from "./OptionChain"
 
 export type Quote = {
     underlyingSymbol: string,
